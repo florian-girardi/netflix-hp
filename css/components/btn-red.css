@@ -1,0 +1,16 @@
+.btn-red{
+  background-color: #e50914;
+  line-height: normal;
+  padding: 7px 17px;
+  font-weight: 400;
+  font-size: 1rem;
+  float: right;
+  border-radius: 6px;
+  color:white;
+  margin: 20px 30px;
+  text-decoration: none;
+}
+
+.btn-red a:hover{
+  text-decoration: none;
+}

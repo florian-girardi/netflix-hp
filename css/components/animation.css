@@ -1,0 +1,142 @@
+.card-animation {
+  padding: 0.5em 0.75em;
+  position: absolute;
+  left: 50%;
+  bottom: 8%;
+  transform: translateX(-50%);
+  margin: 0 auto;
+  background: black;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 60%;
+  min-width: 15em;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 0 2em 0 #000000;
+  border-radius: 0.75em;
+}
+
+.card-animation-image {
+margin: -8% 0 -4% -15%;
+    min-height: 100px;
+    width: 100%;
+        position: relative;
+    overflow: hidden;
+    display: block;
+    -webkit-box-direction: reverse;
+}
+
+.card-animation-text{
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0.3em 0;
+  display: block;
+}
+
+.card-animation-text::after {
+  height: 3.75em;
+  width: 3em;
+  outline: 2px solid black;
+  outline-offset: -2px;
+  display: block;
+  background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) center center no-repeat;
+  background-size: 100%;
+  content: '';
+  -webkit-box-flex: 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-left: 150px;
+  margin-top: -30%
+}
+
+.text-0{
+      font-size: 1em;
+          color: white;
+    font-weight: 600;
+    display: block;
+        -webkit-box-direction: reverse;
+}
+
+.text-1{
+  font-size: 0.9em;
+  color: #0071eb;
+  font-weight: normal;
+  display: block;
+}
+
+.anim-img-cont{
+  width: 48%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+    -moz-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.anim-cont{
+  margin: -8% 0 -4% -15%;
+  min-height: 100px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.anim{
+  position: absolute;
+    left: 50%;
+    bottom: 8%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 0 auto;
+    background: black;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 60%;
+    min-width: 15em;
+    padding: 0.25em 0.65em;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    -webkit-box-shadow: 0 0 2em 0 #000000;
+    -moz-box-shadow: 0 0 2em 0 #000000;
+    box-shadow: 0 0 2em 0 #000000;
+    -webkit-border-radius: 0.75em;
+    -moz-border-radius: 0.75em;
+    border-radius: 0.75em;
+}
+
+.anim-img{
+    margin: 0 1em 0 0;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+    -moz-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    display: block;
+}
+
+.center-pixel{top: 50%;
+    left: 50%;}

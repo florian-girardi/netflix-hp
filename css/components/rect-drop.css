@@ -1,0 +1,19 @@
+.dropdown .rect-drop {
+  text-indent: 0;
+  padding-right: 8px;
+  background: black;
+  color: #999;
+  border-radius: 1px;
+  margin-top: 25px;
+  margin-bottom: 70px;
+
+}
+
+.menu-black{
+  background: black;
+  color: #999;
+  border-radius: 1px;
+  font-size: 18px;
+  padding-left: 17px
+
+}

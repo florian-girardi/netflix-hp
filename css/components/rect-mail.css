@@ -1,0 +1,54 @@
+.rect-mail{
+  background-color: white;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+
+  color: #8c8c8c;
+  flex-grow: 1;
+  text-align: left;
+      min-width: 450px;
+    height: 60px !important;
+    border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        padding: 10px 10px 0;
+    width: 100%;
+    align-items: flex-start;
+        box-sizing: border-box;
+    font-size: 16px;
+    border: solid 1px #8c8c8c;
+    display: block;
+    margin: 0;
+    cursor: text;
+}
+
+.btn-red-nospa{
+  background-color: #e50914;
+  font-size: 1.425rem;
+  font-weight: normal;
+  cursor: pointer;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  color: white;
+
+  min-height: 60px;
+  border: 1px solid #e50914;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin: 0 !important;
+  display: inline-block;
+  width: auto;
+  padding: .35rem 1rem;
+  line-height: initial;
+  vertical-align: middle;
+  cursor: pointer;
+  box-sizing: border-box;
+   height: 60px !important;
+   white-space:nowrap
+
+
+
+
+
+
+
+}

@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap);
+@import url(components/btn-red.css);
+@import url(components/container.css);
+@import url(components/banner.css);
+@import url(components/rect-mail.css);
+@import url(components/card.css);
+@import url(components/rect-black.css);
+@import url(components/rect-grey.css);
+@import url(components/animation.css);
+@import url(components/faq.css);
+@import url(components/footer.css);
+@import url(components/rect-drop.css);
+
+body{font-family: 'Roboto', sans-serif;
+font-size: 18px;
+margin: 0px;
+padding: 0px}
+
+h1,h2,h3 {font-family: 'Roboto', sans-serif;
+font-weight: bold;}
+
+h2, h3, h4, h5 {
+    margin: .75em 0 .25em;}
+
+
+a{text-decoration: none;}
+
+.left {float:left; margin:0 10px; }
+}
+
+a:hover{
+  text-transform: none;
+  text-decoration: none;
+}
+
+h4 {max-width: none;
+  padding: 0;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  font-weight: normal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: block;}
+
+ul {padding: 0
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;}
+
+a{ text-decoration: none; }
+
+.left{ float: left; }
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }

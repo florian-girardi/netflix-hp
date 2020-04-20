@@ -1,0 +1,112 @@
+.faq-list{
+  width: 75%;
+  margin: 2em auto;
+  max-width: 815px;
+  color: white;
+}
+
+.rect-faq{
+  position: relative;
+    border-bottom: 8px solid #222;
+    padding: 50px 5%;
+    margin-bottom: 0;
+    background: transparent;
+    color: white;
+}
+
+.faq-list-item{
+  list-style-type: none;
+  margin: 0 0 8px 0;
+}
+
+.faq-question {
+    padding: 0.8em 2.2em 0.8em 1.2em;
+    margin-bottom: 1px;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: 0;
+    display: block;
+    text-align: left;
+    background: #303030;
+    color: white;
+  -webkit-appearance: button;
+    cursor: pointer;
+    text-transform: none;
+    color: inherit;
+    font: inherit;
+    margin: 0;
+    font-size: 29px;
+  font-family: 'Roboto', sans-serif;}
+
+
+.faq-answer.open {
+  max-height: 1200px;
+  -webkit-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  -o-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  -moz-transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);
+  transition: max-height 0.25s cubic-bezier(0.5, 0, 0.1, 1);    display: block;
+    text-align: left;
+    background: #303030;}
+.rect-text{
+  width: 100%;
+  height: 100%;
+  flex: 0 1 auto;
+  padding: 0 3rem 0 0;
+  z-index: 3;
+  display: block;
+  color:white;}
+
+button{-webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.answer{
+  display: inline-block;
+  padding: 1.2em;
+  color: white;
+  font-size: 26px;
+  background: #303030;
+  display: block;
+  text-align: left;
+}
+
+
+
+.accordion:after {
+  content: '\271B'; /* Unicode character for "plus" sign (+) */
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
